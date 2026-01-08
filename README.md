@@ -63,7 +63,7 @@ All datasets use a fixed **80% / 20%** split between training and test sets. The
 
 ---
 
-## Pretrained models (`.pth`)
+## Trained models (`.pth`)
 
 We provide pretrained PyTorch checkpoints for fast inference for the released settings.
 
@@ -87,6 +87,12 @@ The released datasets and pretrained weights are intended for:
 - experimental feedback control loops where exact optimization is too costly.
 
 ---
+## Data availability (full release)
+Due to the large size of the complete dataset, we do not host the full NPZ/CSV files directly in this GitHub repository. The **full dataset and pretrained `.pth` checkpoints** are available via Baidu Netdisk:
+
+- Full release (Baidu Netdisk): https://pan.baidu.com/s/1Y_H4Deg3PVl8Slgtuldu3Q?pwd=xcys  (password: `xcys`)
+
+To facilitate quick inspection and reproducibility checks, this repository also includes a **small subset of example data** (i.e., partial samples) that follows the same folder structure and file naming convention (`rho_data.npz` + `results.csv`) as the full release.
 
 ## Citation
 If you use the datasets or pretrained models in this repository, please cite:
